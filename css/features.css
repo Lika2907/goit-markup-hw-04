@@ -9,6 +9,15 @@
 .list-goals {
     width: calc((100% - 72px) / 4);
 }
+.icon-box {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+}
 .goals {
     font-weight: 500;
     font-size: 20px;
