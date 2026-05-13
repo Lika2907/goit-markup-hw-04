@@ -28,11 +28,10 @@
 }
 .footer-container {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    align-items: flex-start;
 }
 .footer-left {
-    max-width: 264px;
+    margin-right: 120px;
 }
 .footer-social-title {
     font-weight: 500;
@@ -55,6 +54,9 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms;
+}
+.footer-social {
+    color: #f4f4fd;
 }
 .footer-social-link svg {
     fill: currentColor;
