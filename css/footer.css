@@ -26,3 +26,36 @@
     color: #f4f4fd;
     display: inline-block;
 }
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+}
+.footer-left {
+    max-width: 264px;
+}
+.footer-social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;
+}
