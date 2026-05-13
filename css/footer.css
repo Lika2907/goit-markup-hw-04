@@ -28,8 +28,8 @@
 }
 .footer-container {
     display: flex;
-    align-items: flex-start;
-    gap: 120px;
+    align-items: baseline;
+    justify-content: space-between;
 }
 .footer-left {
     max-width: 264px;
@@ -40,6 +40,7 @@
     line-height: 1.5;
     color: #fff;
     margin-bottom: 16px;
+    letter-spacing: 0.02em
 }
 .footer-social-list {
     display: flex;
@@ -54,6 +55,9 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms;
+}
+.footer-social-link svg {
+    fill: currentColor;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
